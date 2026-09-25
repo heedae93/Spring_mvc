@@ -1,0 +1,16 @@
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+
+# Gradle / build (모듈별 .gitignore에도 있지만 루트에도 안전하게)
+.gradle/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+*.log
